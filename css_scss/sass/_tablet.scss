@@ -1,0 +1,15 @@
+@use "mixins" as *;
+
+@media (min-width: 640px) and (max-width: 1280px) {
+  .container {
+    @include grid(
+      1fr 3fr 3fr 2fr 2fr,
+      1fr 2fr 1fr,
+      "item1 item1 item1"
+      "item3 item3 item3"
+      "item2 item4 item4"
+      "item2 item7 item7"
+      "item2 item6 item5"
+    );
+  }
+}

@@ -1,0 +1,63 @@
+.container {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  .item {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  /* .item1 {
+    background-color: #0e1628;
+    grid-area: item1;
+  }
+
+  .item2 {
+    background-color: #f13a4b;
+    grid-area: item2;
+  }
+
+  .item3 {
+    background-color: #4685c4;
+    grid-area: item3;
+  }
+
+  .item4 {
+    background-color: #223349;
+    grid-area: item4;
+  }
+
+  .item5 {
+    background-color: #bee3e5;
+    grid-area: item5;
+    color: #000;
+  }
+
+  .item6 {
+    background-color: #47bd99;
+    grid-area: item6;
+    color: #000;
+  }
+
+  .item7 {
+    background-color: #ffd170;
+    grid-area: item7;
+    color: #000;
+  } */
+
+  $colores:(#0e1628,#f13a4b,#4685c4,#223349,#bee3e5,#47bd99,#ffd170);
+
+  @for $i from 1 through 7 {
+    .item#{$i} {
+      /* background-color: #000; */
+      background-color: nth($colores , $i);
+      border: thin solid white;
+      grid-area: item#{$i};
+    }
+  }
+}

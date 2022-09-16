@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 3fr 3fr 2fr 2fr 2fr;
+  grid-template-areas:
+    "header"
+    "menu"
+    "hero"
+    "main"
+    "banner"
+    "extra"
+    "imagen";
+}
+
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: menu;
+}
+
+.item3 {
+  grid-area: hero;
+}
+
+.item4 {
+  grid-area: main;
+}
+
+.item5 {
+  grid-area: imagen;
+}
+
+.item6 {
+  grid-area: extra;
+}
+
+.item7 {
+  grid-area: banner;
+}

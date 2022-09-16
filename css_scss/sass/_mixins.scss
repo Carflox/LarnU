@@ -1,0 +1,9 @@
+@mixin grid($row, $column, $areas) {
+  display: grid;
+  grid-template-rows: $row;
+  grid-template-columns: $column;
+  grid-template-areas: $areas;
+  .item {
+    font-size: 1.5rem;
+  }
+}
