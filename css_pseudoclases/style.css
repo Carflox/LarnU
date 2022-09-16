@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a:hover {
+  background-color: red;
+  color: aliceblue;
+}
+
+.master:hover {
+  background-color: red;
+  color: aliceblue;
+}
+
+p:first-child {
+  background-color: red;
+}
+
+form input:focus {
+  border: 4px solid blue;
+  background-color: red;
+}
+
+.intro p::first-line {
+  background-color: red;
+}
+
+.intro p::first-letter {
+  background-color: red;
+}
+
+p::before {
+  content: url("smiley.gif");
+}
+
+p::after {
+  content: url("smiley.gif");
+}
