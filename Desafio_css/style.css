@@ -1,0 +1,81 @@
+p {
+  color: red;
+}
+
+#para1 {
+  color: red;
+}
+
+.colortext {
+  color: rgb(0, 47, 255);
+}
+
+h1 {
+  background-color: lightblue;
+}
+
+body {
+  background-image: url(./img_tree.jpg);
+  background-repeat: repeat-y;
+  background-position-x: center;
+}
+
+p {
+  border-width: 4px;
+  border-style: dotted;
+  border-color: red;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+h1 {
+  margin: 20px 40px;
+}
+
+h1 {
+  margin: center;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 30px;
+}
+
+h1 {
+  padding: 10px 40px;
+}
+
+h1 {
+  height: 100px;
+}
+
+h1 {
+  width: 50%;
+}
+
+div {
+  width: 200px;
+  border: 2px solid red;
+  padding: 25px;
+  margin: 25px;
+}
+
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow-y: scroll;
+}
+
+.intro2 {
+  width: 200px;
+  height: 70px;
+  overflow-y: hidden;
+}
+
+.intro3 {
+  width: 500px;
+  height: 70px;
+  overflow-x: scroll;
+}
